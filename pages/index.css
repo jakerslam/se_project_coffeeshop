@@ -6,6 +6,8 @@
     max-width: 1600px;
     font-family: “Inter”, arial, sans-serif;
     margin: auto;
+    font-size: 16px;
+    line-height: 20px;
 }
 
 @media screen and (min-width: 1600px) {
