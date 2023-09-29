@@ -5,7 +5,7 @@
     min-width: 1100px;
     max-width: 1600px;
     font-family: “Inter”, arial, sans-serif;
-    margin: 0;
+    margin: auto;
 }
 
 @media screen and (min-width: 1600px) {
