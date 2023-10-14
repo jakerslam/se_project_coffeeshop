@@ -83,7 +83,8 @@
     z-index: 1;
 }
 
-.title__span-accent {font-family: "Noto Serif";
+.header__span-accent {
+    font-family: "Noto Serif";
 
     font-style: italic;
     
@@ -117,7 +118,7 @@
 
 
 
-.header__img {
+.header__image {
     height: 568px;
     width: 646px;
     margin-right: 5px;
