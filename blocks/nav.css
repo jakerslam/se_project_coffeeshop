@@ -1,0 +1,52 @@
+.nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    margin-right: 80px;
+    column-gap: 20px;
+    padding: 0;
+    margin-top: 30px;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 500;  
+    font-size: 16px; 
+    line-height: 20px;
+}
+
+.nav__links {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    column-gap: 20px;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin-right: 80px;
+    text-decoration: none;
+    list-style-type: none;
+  }
+  
+  .header__description {
+      margin-left: 80px;
+      max-width:683px;
+  }
+
+.nav__link {
+
+    text-decoration: none;
+    list-style-type: none;
+    column-gap: 20px;
+    align-items: flex-end;
+    color: #000000;
+    transition: .5s;
+}
+
+.nav__link:visited {
+
+    color: #000000;
+}
+
+.nav__link:hover {
+
+    color: #2F80ED;
+}
