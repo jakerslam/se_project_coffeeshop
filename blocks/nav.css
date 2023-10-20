@@ -26,10 +26,13 @@
     list-style-type: none;
   }
   
-  .header__description {
-      margin-left: 80px;
-      max-width:683px;
-  }
+  .nav__logo {
+    padding: 0;
+    margin-left: 30px;
+    justify-self: flex-start;
+    height: 39px;
+    width: 105px;
+}
 
 .nav__link {
 

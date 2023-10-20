@@ -13,13 +13,7 @@
     flex-wrap: wrap;
 }
 
-.logo {
-    padding: 0;
-    margin-left: 30px;
-    justify-self: flex-start;
-    height: 39px;
-    width: 105px;
-}
+
 
 .header__title {
     margin: 183px 0px 28px 80px;
@@ -36,6 +30,12 @@
     
     letter-spacing: -0.6px;
     z-index: 1;
+}
+
+
+.header__description {
+    margin-left: 80px;
+    max-width:683px;
 }
 
 .header__span-accent {
@@ -98,21 +98,21 @@ z-index: 1;
 align-items: baseline;
 }
 
-.hours {
+.header__hours {
     color:#6F6F6F;
     margin-bottom:0px ;
  /*justify-content:flex-start;*/
  /*flex-basis: 50%;*/
 }
 
-.hours__collum {
+.header__hours-collum {
     display: flex;
     align-self: baseline;
     margin: 0;
     padding:0;
 }
 
-.address {
+.header__address {
     color:#6F6F6F;
     /*margin: auto 80px 40px auto;
     justify-self: flex-end;

@@ -53,11 +53,11 @@
     margin: 0;
 }
 
-.video {
+.recipes__video {
     margin-left: 80px;
 }
 
-.video-caption {
+.recipes__video-caption {
     display: flex;
     justify-content: space-between;
     margin-top: 24px;
@@ -72,7 +72,7 @@ font-size: 20px;
 line-height: 30px;
 }
 
-.video-caption p {
+.recipes__video-caption p {
     margin:0;
 }
 
