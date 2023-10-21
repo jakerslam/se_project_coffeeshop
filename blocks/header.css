@@ -10,8 +10,7 @@
     min-height: 720px;
     max-height: 800px;
     display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
+    flex-direction: column;
 }
 
 
@@ -70,7 +69,6 @@
 .header__image {
     height: 568px;
     width: 646px;
-    margin-right: 5px;
     position: absolute;
     right: 5px;
     top: 124px;
@@ -82,8 +80,7 @@
     margin-top: auto;
     display: flex;
     align-items: baseline;
-    justify-content: space-between;
-    width: 100%;
+    justify-content: space-between; 
     font-family: "Inter", Arial, sans-serif;
 
 font-style: normal;
@@ -101,7 +98,6 @@ align-items: baseline;
 
 .header__paragraph {
     display: flex;
-    flex-direction: column;
     align-self: baseline;
     margin: 0;
     padding:0;
