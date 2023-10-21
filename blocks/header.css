@@ -64,6 +64,7 @@
     line-height: 72px;
     
     color: #2F80ED;
+    display: block;
 }
 
 .header__image {
